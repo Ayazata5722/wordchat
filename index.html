@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Responder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for 'Inter' */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Ensure the body fills the viewport height and centers content */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 sm:p-12 rounded-2xl shadow-xl max-w-lg w-full text-center">
+        <h1 class="text-4xl sm:text-5xl font-bold text-gray-800 mb-6 tracking-tight">
+            Auto Responder
+        </h1>
+
+        <img src="https://ayazata5722.github.io/wordchat/hero.png" alt="Hero Image"
+             class="mx-auto my-6 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-md"
+             onerror="this.onerror=null;this.src='https://placehold.co/160x160/cccccc/333333?text=Image+Error';"
+        >
+
+        <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
+            Automate and streamline your feedback processes with intelligent, instant responses.
+            Designed to provide concise and constructive insights for various tasks,
+            making communication efficient and effective.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+            <a href="https://ayazata5722.github.io/wordchat/server1.html"
+               class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl
+                      shadow-md hover:shadow-lg transition duration-300 ease-in-out
+                      text-lg sm:text-xl w-full sm:w-auto flex items-center justify-center">
+                Server 1
+            </a>
+            <a href="https://ayazata5722.github.io/wordchat/server2.html"
+               class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-xl
+                      shadow-md hover:shadow-lg transition duration-300 ease-in-out
+                      text-lg sm:text-xl w-full sm:w-auto flex items-center justify-center">
+                Server 2
+            </a>
+        </div>
+
+        <p class="text-sm text-gray-500 mt-6">
+            Developed by Ahmed
+        </p>
+    </div>
+</body>
+</html>
